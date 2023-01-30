@@ -6,7 +6,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 
 
-os.environ['PATH'] += "c:\Selenium_Driver"
+os.environ['PATH'] += "c:\Selenium_Driver" #putanja do webdrivera, svaki browser ima svoj driver kojeg treba skinuti i treba paziti na verziju browsera, mora biti ista kao driver
 driver = webdriver.Chrome()
 driver.get("https://jqueryui.com/resources/demos/progressbar/download.html")
 # nakon pokretanja dobivamo poruku Chrome is being controlled by automated test software
